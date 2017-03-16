@@ -1,0 +1,35 @@
+Arguments: 
+  /usr/bin/nodejs /usr/share/yarn/bin/yarn.js add jsforce
+
+PATH: 
+  /home/forrana/.config/yarn/global/node_modules/.bin:/home/forrana/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/microchip/xc8/v1.34/bin:/usr/lib/jvm/java-8-oracle/:/opt/microchip/xc8/v1.34/bin:/home/forrana/.yarn-global/
+
+Yarn version: 
+  0.21.3
+
+Node version: 
+  6.10.0
+
+Platform: 
+  linux x64
+
+npm manifest: 
+  {
+    "name": "jsforce",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "forrana <forrana@gmail.com>",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com:443
+      at Object.exports._errnoException (util.js:1022:11)
+      at errnoException (dns.js:33:15)
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
