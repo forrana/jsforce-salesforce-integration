@@ -9,9 +9,9 @@ const jsforce = require('jsforce'),
 var oauth2 = new jsforce.OAuth2({
   // you can change loginUrl to connect to sandbox or prerelease env.
   // loginUrl : 'https://ap4.salesforce.com',
-  clientId : '3MVG9YDQS5WtC11ptisru2ZbKjAa4IZYKmA5Lz2qkGYBnjj7JCHDWvzovs14wan32n.MasOZ0hhaesOCq.Eri',
-  clientSecret : '2282910486830136445',
-  redirectUri : 'http://localhost:3000/oauth2/callback'
+  clientId : 'X',
+  clientSecret : 'X',
+  redirectUri : 'X'
 });
 
 app.get('/oauth2/auth', function(req, res) {
