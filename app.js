@@ -5,7 +5,7 @@ const conn = new jsforce.Connection();
 
 fileOut = fs.createWriteStream('./updloaded.doc')
 
-conn.login('forrana@gmail.com', 'AsF01305218LKgn4MdS0X6DKsWSGo3EA5Oa', function(err, res) {
+conn.login('XXXXXXX', 'XXXXXXXXXX', function(err, res) {
   if (err) { return console.error(err); }
   conn.query('SELECT Id, Name, body FROM Document', function(err, res) {
     if (err) { return console.error(err); }
